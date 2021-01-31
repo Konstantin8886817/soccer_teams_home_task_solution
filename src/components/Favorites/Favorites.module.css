@@ -1,0 +1,64 @@
+.Favorites{
+    display: flex;
+    margin: 20px -15px 0;
+    flex-wrap: wrap;
+}
+
+.Empty{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.Card{
+    width: calc(100% / 4 - 30px);
+    margin: 15px;
+    padding: 10px;
+    border:1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.CardLogo{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.CardYear{
+    margin-bottom:15px;
+}
+
+.Btn{
+    padding: 5px 15px;
+    text-transform: uppercase;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    margin-top: auto;
+    
+}
+
+.Btn:hover{
+    cursor: pointer;
+}
+
+@media(max-width:800px){
+    .Card{
+        width: calc(100% / 3 - 30px);
+    }
+}
+
+@media(max-width:600px){
+    .Card{
+        width: calc(100% / 2 - 30px);
+    }
+}
+
+@media(max-width:450px){
+    .Card{
+        width: calc(100% - 30px);
+    }
+}

@@ -1,0 +1,44 @@
+.TeamList{
+    list-style: none;
+    margin-top:20px;
+}
+
+.TeamRow{
+    padding: 10px;
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.TeamLogo{
+    width: 80px;
+}
+
+.TeamInfo{
+    flex-grow:1;
+    margin: 0 15px;
+}
+
+.Btn{
+    padding: 10px 15px;
+    text-transform: uppercase;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    min-width: 170px;
+}
+
+.Btn:hover{
+    cursor: pointer;
+}
+
+.BtnSuccess{
+    background-color: green;
+    color: #fff;
+}
+
+.BtnDanger{
+    background-color: red;
+    color: #fff;
+}

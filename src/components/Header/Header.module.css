@@ -1,0 +1,24 @@
+.Header{
+    display: flex;
+    padding: 10px;
+    background-color: #ccc;
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.Header li{
+
+    margin-right: 15px;
+}
+
+.Header li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.Active{
+    font-weight: bold;
+}
+
